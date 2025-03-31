@@ -33,7 +33,7 @@ AmazonClone/
 ## How to Run the Project  
 1. Clone this repository to your local machine:  
    ```sh
-   git clone https://github.com/AshishSinsinwal/AmazonClone.git
+   git clone https://github.com/AshishSinsinwal/Amazon-UI-Clone-.git
    ```
    
 2.Open the `home/AmazonzHome.html` file in your browser. 
