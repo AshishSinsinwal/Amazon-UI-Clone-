@@ -1,0 +1,114 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+html{
+    display: flex;
+    margin: 0px;
+    flex-direction: column;
+   
+
+
+}
+.logo{
+    height: 60px;
+    width: 136px;
+   
+    justify-self: center;
+    background-image: url("amazonlogo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+.signin{
+    justify-self: center;
+    margin-top: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.258); 
+    border-radius: 5px;
+    height:314px;
+    width: 296px;
+  
+    padding: 20px 26px 20px 26px;
+}
+
+input{
+    width:275.86px;
+    height: 21.99px;
+    margin-top: 3px;
+    padding: 3px 7px 3px 7px;
+    border: 1px solid rgba(0, 0, 0, 0.258);
+    border-radius: 3px;
+}
+
+button{
+    width:295.6px;
+    height: 26.99px;
+    padding: 1px 6px 1px 6px;
+    margin-top: 8px;
+    
+    border-radius: 15px;
+   background-color: white;
+    border: none;
+    justify-self: center;
+    
+}
+.legal{
+    height: 32px;
+    width:296px;
+    margin-top: 16px;
+    font-size: 12px;
+}
+
+a{
+   
+    color: #007185;
+  
+}
+i{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+hr{
+    border-color: white;
+    color: white;
+}
+span{
+    font-size: 14px;
+    font-weight: 600;
+    display: block;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+h5{
+    justify-self: center;
+    color: #565959;
+    font-size: 12px;
+    font-weight: 100;
+}
+
+.newaccount{
+ 
+    height: 26.99px;
+    padding: 1px 6px 1px 6px;
+    margin-top: 8px;
+    border-radius: 15px;
+    background-color: white;
+  
+    font-size: 13px;
+    border:1px solid #0F1111;
+    /* margin-left: 385px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+p{
+    justify-self: center;
+    font-size: 13px;
+}
+
+button:hover{
+    transform: scale(1.1);
+    cursor:pointer;
+}

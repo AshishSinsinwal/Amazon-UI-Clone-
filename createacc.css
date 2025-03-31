@@ -1,0 +1,112 @@
+*{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+html{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.logo{
+    height: 60px;
+    width: 136px;
+    background-image: url('amazonlogo.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    justify-self: center;
+    
+}
+
+.create{
+    border: border-box;
+    height: 598px;
+    width: 312px;
+    padding:  14px 18px 14px 18px;
+    justify-self: center;
+    border: 1px solid rgba(0, 0, 0, 0.258); 
+    margin-top: 10px;
+    border-radius: 3px;
+
+}
+
+h1{
+    height: 40px;
+    width: 312.87px;
+    color: #0F1111 ;
+    font-size: 28px;
+    margin: 0px 0px 8px;
+    padding: 0px 0px 4px;
+   font-weight: lighter;
+}
+
+label{
+    height:21.99px;
+    width: 312.87px;
+    font-size:14px;
+    color: #0F1111 ;
+    padding: 0px 0px 2px 2px;
+    font-weight: bold;
+    margin-top:9px;
+}
+i{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    
+}
+input{
+    height: 25.99px;
+    width: 298.87px;
+    border: 1px solid rgba(0, 0, 0, 0.258); 
+    padding:3px 7px;
+    border-radius: 10px;
+    margin-top: 3px;
+    
+}
+button{
+    width:295.6px;
+    height: 26.99px;
+    padding: 1px 6px 1px 6px;
+    margin-top: 8px;
+    
+    border-radius: 15px;
+   background-color: white;
+    border: none;
+    justify-self: center;
+    
+}
+
+.legaltxt {
+    height: 32px;
+    width: 312px;
+    font-size:12px;
+    margin: 16px 0px 0px;
+}
+
+
+.signin {
+    height: 20px;
+    width: 312px;
+    font-size:14px;
+    margin-top:14px;
+    color: #0F1111;
+   
+}
+a{
+    color: #007185;
+}
+
+hr{
+    margin-top: 36px;
+   
+}
+
+footer{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 15px;
+}
