@@ -192,7 +192,7 @@ a {
  /*----------------------------------------------*/
  .hero_section{
     height: 320px;
-    background-image: url("amazonhero.png");
+    background-image: url("../images/amazonhero.png");
     background-size:cover;
     display: flex;
     justify-content: center;
